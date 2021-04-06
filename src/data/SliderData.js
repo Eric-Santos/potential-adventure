@@ -4,46 +4,55 @@ import ImageTwo from "../images/sardines.jpg";
 import ImageThree from "../images/skeleton.jpg";
 import ImageFour from "../images/bridge.jpg";
 import ImageFive from "../images/citytwo.jpg";
+import ImageSix from "../images/building.jpg";
 
 export const SliderData = [
   {
-    title: "Luxury Villa in Bali",
+    title: "Coco Loko",
     price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
+    path: "/projects",
+    label: "View Projects",
     image: ImageOne,
     alt: "House",
   },
   {
-    title: "Luxury Villa in Bali",
+    title: "Project Two",
     price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
+    path: "/projects",
+    label: "View Projects",
     image: ImageTwo,
     alt: "House",
   },
   {
-    title: "Luxury Villa in Bali",
+    title: "Project Three",
     price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
+    path: "/projects",
+    label: "View Projects",
     image: ImageThree,
     alt: "House",
   },
   {
-    title: "Luxury Villa in Bali",
+    title: "Project Four",
     price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
+    path: "/projects",
+    label: "View Projects",
     image: ImageFour,
     alt: "House",
   },
   {
-    title: "Luxury Villa in Bali",
+    title: "Project Five",
     price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
+    path: "/projects",
+    label: "View Projects",
     image: ImageFive,
+    alt: "House",
+  },
+  {
+    title: "Coco Loko",
+    price: "$4,280,000",
+    path: "/projects",
+    label: "View Projects",
+    image: ImageSix,
     alt: "House",
   },
 ];

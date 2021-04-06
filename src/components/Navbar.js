@@ -63,7 +63,7 @@ const NavBtn = styled.div`
 const Navbar = ({ toggle }) => {
   return (
     <Nav>
-      <Logo to="/">Coco Loko</Logo>
+      <Logo to="/">Eric Santos</Logo>
       <MenuBars onClick={toggle}  />
       <NavMenu>
         {MenuData.map((item, index) => (
@@ -74,7 +74,7 @@ const Navbar = ({ toggle }) => {
       </NavMenu>
       <NavBtn>
         <Button to="/contact" primary="true">
-          Contact Us
+          Contact Me
         </Button>
       </NavBtn>
     </Nav>
