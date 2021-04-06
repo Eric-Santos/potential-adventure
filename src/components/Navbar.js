@@ -60,11 +60,11 @@ const NavBtn = styled.div`
   }
 `;
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <Logo to="/">Coco Loko</Logo>
-      <MenuBars />
+      <MenuBars onClick={toggle}  />
       <NavMenu>
         {MenuData.map((item, index) => (
           <NavMenuLinks to={item.link} key={index}>

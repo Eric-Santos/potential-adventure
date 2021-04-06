@@ -1,5 +1,9 @@
 // import ImageOne from "../images/fish.jpg";
-import ImageOne from "../images/skeleton.jpg";
+import ImageOne from "../images/city.jpg";
+import ImageTwo from "../images/sardines.jpg";
+import ImageThree from "../images/skeleton.jpg";
+import ImageFour from "../images/bridge.jpg";
+import ImageFive from "../images/citytwo.jpg";
 
 export const SliderData = [
   {
@@ -15,7 +19,7 @@ export const SliderData = [
     price: "$4,280,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageTwo,
     alt: "House",
   },
   {
@@ -23,7 +27,7 @@ export const SliderData = [
     price: "$4,280,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageThree,
     alt: "House",
   },
   {
@@ -31,7 +35,7 @@ export const SliderData = [
     price: "$4,280,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageFour,
     alt: "House",
   },
   {
@@ -39,7 +43,7 @@ export const SliderData = [
     price: "$4,280,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageFive,
     alt: "House",
   },
 ];
