@@ -1,5 +1,5 @@
 // import ImageOne from "../images/fish.jpg";
-import ImageOne from "../images/sardines.jpg";
+import ImageOne from "../images/skeleton.jpg";
 
 export const SliderData = [
   {
